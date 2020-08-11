@@ -1,7 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'kramdown'
-gem 'rack-jekyll'
-gem 'rake'
-gem 'puma'
+gem "jekyll", "~> 4.1.1"
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
